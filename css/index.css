@@ -54,7 +54,7 @@
                 font-size: 50px;
             }
             
-            button {
+            .btn {
                 padding: 12px 20px;
                 font-size: 25px;
                 outline: none;
@@ -68,45 +68,33 @@
                 color: #fff
             }
             
-            button:hover {
+            .btn:hover {
                 color: #0D6EFD;
                 background-color: #fff;
             }
             
             .accord {
-                margin-top: 5rem;
-                height: 50vh
+                margin-top: 1rem;
+                margin-bottom: 7em;
+                height: 30vh
             }
             
             .accord h4 {
                 text-transform: capitalize;
             }
             
+            footer {
+                text-align: center;
+            }
+            
             @media(max-width:900px) {
-                header {
-                    height: 5vh;
-                }
-                .content {
-                    width: 40rem;
-                }
-                .content h4 {
-                    font-size: 30px;
-                    width: 30rem;
-                    padding: 5em;
-                }
-                .content p {
-                    font-size: 20px
+                .container h4 {
+                    font-size: 40px;
                 }
             }
             
-            @media(max-width:660px) {
-                .content {
-                    background-color: blue;
-                    width: 30rem;
-                }
-                .content h4 {
-                    font-size: 20px;
-                    width: 20rem;
-                    padding: 7em;
+            @media(max-width:600px) {
+                .container h4 {
+                    font-size: 27px;
                 }
             }
