@@ -33,7 +33,7 @@
  
  .img-overlay {
      height: 90vh;
-     background-color: rgba(0, 0, 0, 0.8);
+     background-color: rgba(0, 0, 0, 0.65);
      display: flex;
      justify-content: center;
      width: 100%;
@@ -75,13 +75,20 @@
  }
  
  #accord {
-     margin-top: 1rem;
-     margin-bottom: 8em;
+     margin-bottom: 7em;
      height: 30vh
  }
  
- #accord h4 {
+ .qa-text {
+     margin-top: 3rem;
      text-transform: capitalize;
+     margin-bottom: 1.2em;
+     text-decoration: underline;
+ }
+ 
+ .accordion {
+     /* margin-top: 1rem; */
+     margin-bottom: 1rem;
  }
  
  footer {
@@ -97,5 +104,11 @@
  @media(max-width:600px) {
      .container h4 {
          font-size: 27px;
+     }
+ }
+ 
+ @media(max-width:750px) {
+     .qa-text {
+         margin-bottom: 3em;
      }
  }
