@@ -11,7 +11,7 @@ const questions = [{
     },
 ];
 
-const accordion = document.getElementById("accord");
+const accordion = document.getElementById("questions");
 let createEle = "";
 questions.map((item, index) => {
     const { id, question, answer } = item;
