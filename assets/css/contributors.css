@@ -17,6 +17,10 @@
     padding-left: 50px;
 }
 
+.contributors .custom-bg-blue{
+    background-color: #0D6EFD;
+}
+
 
 @media(max-width: 950px){
     .contributors button{
