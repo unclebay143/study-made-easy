@@ -21,13 +21,11 @@
 @media(max-width: 950px){
     .contributors button{
         padding-right: 20px;
-        /* padding-left: 20px; */
         
     }
     
     .contributors-name ul li{
         padding-right: 18px;
-        /* padding-left: 18px; */
     }
     
       
@@ -35,13 +33,11 @@
 
 @media(max-width: 600px){
     .contributors button{
-        /* padding-right: 20px; */
         padding-left: 20px;
         
     }
     
     .contributors-name ul li{
-        /* padding-right: 18px; */
         padding-left: 18px;
     }
     
