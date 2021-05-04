@@ -1,14 +1,14 @@
 // FILE CONTAINING OBJECTS OF QUESTIONS WITH THEIR ANSWERS
 const questions = [{
         id: 1,
-        question: "be our contributor",
+        question: "Be our first contributor",
         answer: "No answer yet",
     },
-    {
-        id: 2,
-        question: "be our contributor",
-        answer: "No answer yet",
-    },
+    // {
+        // id: 2,
+        // question: "Be o contributor",
+        // answer: "No answer yet",
+    // },
 ];
 
 const accordion = document.getElementById("questions");

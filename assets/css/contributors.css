@@ -1,0 +1,49 @@
+
+.contributors{
+    margin-top: 50px;
+    /* margin-right: 50px !important;
+    margin-left: 18px !important; */
+
+}
+
+.contributors button{
+    padding-right: 70px;
+    padding-left: 50px;
+    
+}
+
+.contributors-name ul li{
+    padding-right: 70px;
+    padding-left: 50px;
+}
+
+
+@media(max-width: 950px){
+    .contributors button{
+        padding-right: 20px;
+        /* padding-left: 20px; */
+        
+    }
+    
+    .contributors-name ul li{
+        padding-right: 18px;
+        /* padding-left: 18px; */
+    }
+    
+      
+}
+
+@media(max-width: 600px){
+    .contributors button{
+        /* padding-right: 20px; */
+        padding-left: 20px;
+        
+    }
+    
+    .contributors-name ul li{
+        /* padding-right: 18px; */
+        padding-left: 18px;
+    }
+    
+      
+}
