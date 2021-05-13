@@ -1,0 +1,15 @@
+.accordion {
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+ 
+@media(max-width:750px) {
+    .qa-text {
+        margin-bottom: 3em;
+    }
+    #questions {
+    margin-bottom: 12em;
+}
+}

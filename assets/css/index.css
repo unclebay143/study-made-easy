@@ -62,12 +62,7 @@
      text-decoration: underline;
  }
  
- .accordion {
-     /* margin-top: 1rem; */
-     margin-bottom: 1rem;
-     width: 100%;
- }
- 
+
  
  @media(max-width:900px) {
      .container h4 {
@@ -85,15 +80,6 @@
      
  }
  
- 
- @media(max-width:750px) {
-     .qa-text {
-         margin-bottom: 3em;
-     }
-     #questions {
-     margin-bottom: 12em;
- }
-}
  @media(max-width:445px) {
      .qa-text {
          margin-bottom: 4em;
