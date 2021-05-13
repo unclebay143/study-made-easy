@@ -9,7 +9,7 @@ const arrayOfChapters = [...chapter1, ...chapter7]
 const currentChapter = localStorage.getItem("_currentChapter")
 
 // SET PAGE TITLE
-document.title = `Chapter ${currentChapter} Question and Answer`
+document.title = `Chapter ${currentChapter} Questions and Answers`
 
 // GET ACCORDION CONTAINTER
 const accordion = document.querySelector(".current__chapter__review");
@@ -19,7 +19,7 @@ const currentChapterHeading = document.querySelector(".chapter__heading");
 const chapterHasZeroQuestion = document.querySelector(".chapter__zero__question");
 
 // SET CURRENT CHAPTER HEADING
-currentChapterHeading.innerHTML = (`<h1>Chapter ${currentChapter} Questions and Answer </h1>`);
+currentChapterHeading.innerHTML = (`<h1>Chapter ${currentChapter} Questions and Answers </h1>`);
 
 // FETCH OUT STUDENT SELECTED CHAPTER
 const fetchCurrentChapter =arrayOfChapters.filter(chapters=>chapters.chapter === currentChapter);
