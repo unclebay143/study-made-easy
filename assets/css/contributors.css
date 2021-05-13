@@ -1,9 +1,6 @@
 
 .contributors{
     margin-top: 50px;
-    /* margin-right: 50px !important;
-    margin-left: 18px !important; */
-
 }
 
 .contributors button{
@@ -12,7 +9,13 @@
     
 }
 
-.contributors-name ul li{
+
+/* LET FIRST CHILD GIVE SPACE */
+.contributors__wrapper ul li:is(:first-child){
+    padding-top: 20px;
+}
+
+.contributors__wrapper ul li{
     padding-right: 70px;
     padding-left: 50px;
 }
@@ -21,6 +24,12 @@
     background-color: #0D6EFD;
 }
 
+.contributors__name a{
+    font-size: 20px;
+}
+.contribution__counter{
+    font-size: 19px;
+}
 
 @media(max-width: 950px){
     .contributors button{
@@ -28,7 +37,7 @@
         
     }
     
-    .contributors-name ul li{
+    .contributors__wrapper ul li{
         padding-right: 18px;
     }
     
@@ -41,7 +50,7 @@
         
     }
     
-    .contributors-name ul li{
+    .contributors__wrapper ul li{
         padding-left: 18px;
     }
     

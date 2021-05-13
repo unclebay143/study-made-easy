@@ -14,6 +14,7 @@
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf "
         crossorigin="anonymous "></script>
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/chapterlist.css">
     <link rel="stylesheet" href="./assets/css/common.css">
 </head>
 
@@ -33,12 +34,11 @@
                             <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link active text-primary" aria-current="page" href="#questions">Q&S</a>
+                            <a class="nav-link active text-primary" aria-current="page" href="#chapters">Q&S</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link active text-primary" aria-current="page" href="./public/contributors.html">Contributors</a>
                         </li>
-
                     </ul>
                 </div>
             </div>
@@ -48,11 +48,10 @@
         <div class="img-overlay ">
             <div class="container ">
                 <h4>click below to fill the survey about #The life changer# by
-                    <p>khadijat Abubakar
-                    </p>
+                    <p>khadijat Abubakar</p>
                 </h4>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7fcwYUj8pISRVCxRHdYM122bYFnHBfANGp6eIa2Q5PQ0t_g/viewform?usp=sf_link" target="_blank">
-                    <button type=" submit " class="btn ">
+                    <button type=" submit " class="contribute__btn home__btn">
                         Add Q&A
                     </button>
                 </a>
@@ -60,17 +59,19 @@
         </div>
     </main>
 
-    <h4 class="text-dark text-center qa-text">Questions and answers</h4>
-    <div class="container" id="questions">
-        <!-- accordion section that displays the questions and answers -->
+    <!--CHAPTERS LIST SECTION -->
+    <section class="chapters-list-container" id="chapters">
+        <h4 class="text-dark text-center">The Life Changer Questions & Answers</h4>
+        <!-- LIST OF CHAPTERS WITH TRIGGERS -->
+        <div class="chapter__lists"></div>
+    </section>
 
-        <!-- accordion section that displays the questions and answers -->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>(C) 2021</p>
+    </footer>
 
-
-
-    </div>
-    <footer>(C) 2021</footer>
-    <script src="./assets/js/questions.js"></script>
+    <!-- CHAPTER LIST SCRIPT -->
+    <script src="./assets/js/chapters/chapterList.js"></script>
 </body>
-
 </html>
