@@ -1,15 +1,81 @@
-.accordion {
-    /* margin-top: 1rem; */
-    margin-bottom: 1rem;
-    width: 100%;
+.navbar{
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 
- 
-@media(max-width:750px) {
-    .qa-text {
-        margin-bottom: 3em;
-    }
-    #questions {
-    margin-bottom: 12em;
+
+.accordion {
+    width: 100%;
+    margin-bottom: 1rem;
 }
+
+.chapter__questions{
+    margin: 40px 0px;
+}
+
+.chapter__heading h1{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.chapter__zero__question{
+    text-align: center;
+}
+
+.chapter__zero__question span{
+    font-size: 14px;
+}
+
+
+.accordion-item .question__text{
+    font-size: 0.8rem;
+    outline: none;
+    line-height: 2;
+}
+
+.accordion-item .question__text:focus{
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.answer__text{
+    font-size: 0.8rem;
+    line-height: 2;
+}
+
+
+
+.contribute__teaser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contribute__teaser .contribute__btn{
+    font-size: 20px;
+}
+
+/* OVERRIDE BUTTON HOVER  */
+.contribute__teaser .contribute__btn:hover{
+    background-color: #0d6efd;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+
+@media(min-width: 900px){
+
+    .chapter__questions{
+        margin: 80px 0px;
+    }
+
+    .chapter__heading h1{
+        text-align: center;
+        font-size: 23px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+    
 }

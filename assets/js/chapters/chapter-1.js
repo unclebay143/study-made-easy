@@ -1,3 +1,7 @@
+// CHAPTER 1 MODULE
+
+
+
 const chapter1 = [
     {
         id: 1,
@@ -60,5 +64,8 @@ const chapter1 = [
         chapter: "1",
     },
 ]
+
+
+// EXPORT CHAPTER 1 MODULE
 
 export {chapter1}
