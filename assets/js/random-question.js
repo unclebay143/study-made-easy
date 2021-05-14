@@ -11,7 +11,7 @@ button.addEventListener("click", function () {
   const mainContainer = document.querySelector(".containers");
   let container = "";
 
-  const index = Math.floor(Math.random() * randomQuestion.length);
+  const index = Math.floor(Math.random() * randomQuestion.length + 1);
   randomQuestion.filter((item) => {
     if (index === item.id) {
       container += `<div class="question-container">Question :     ${item.question}</div>
