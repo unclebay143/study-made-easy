@@ -1,0 +1,92 @@
+main.home {
+  background-image: url("../images/e8c82ac3b9067a37851876ca5fd2709a.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.img-overlay {
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 75vh;
+  align-items: center;
+  padding-top: 6em;
+}
+
+.container h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+
+.home__btn {
+  animation: shake 15s cubic-bezier(.36, .07, .19, .97) both infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  100% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+@media (max-width: 900px) {
+  .container h4 {
+    font-size: 40px;
+  }
+  .contribute__btn {
+    font-size: 18px;
+  }
+
+  .footer {
+    margin-bottom: 50px;
+  }
+
+  .footer p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container h4 {
+    font-size: 27px;
+  }
+
+}
+
+@media (max-width: 445px) {
+
+  .navbar-brand {
+    font-size: 15px;
+    margin-left: -10px;
+  }
+}
