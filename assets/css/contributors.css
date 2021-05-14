@@ -1,58 +1,61 @@
+/* FOR CONTRIBUTORS PAGE */
+
+nav.navbar{
+    padding-left: 0px;
+    padding-right: 5px;
+  }
+  
+
+
+
+
 
 .contributors{
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
 }
 
-.contributors button{
-    padding-right: 70px;
-    padding-left: 50px;
-    
-}
-
-
-/* LET FIRST CHILD GIVE SPACE */
-.contributors__wrapper ul li:is(:first-child){
-    padding-top: 20px;
-}
-
-.contributors__wrapper ul li{
-    padding-right: 70px;
-    padding-left: 50px;
-}
 
 .contributors .custom-bg-blue{
     background-color: #0D6EFD;
 }
 
-.contributors__name a{
+.contributors-heading .list-group-item-action.active{
+    padding-right:  30px;
+    padding-left: 20px;
     font-size: 20px;
+}
+
+.list-group-item.contributors__name{
+    padding-right:  30px;
+    padding-left: 23px;
+}
+
+.contributors__name a{
+    font-size: 15px;
 }
 .contribution__counter{
     font-size: 19px;
 }
 
-@media(max-width: 950px){
-    .contributors button{
-        padding-right: 20px;
-        
-    }
+.contributors button{
+    padding-right: 20px;
     
-    .contributors__wrapper ul li{
-        padding-right: 18px;
-    }
-    
-      
 }
 
-@media(max-width: 600px){
-    .contributors button{
-        padding-left: 20px;
-        
-    }
+.contributors__wrapper ul li{
+    padding-right: 18px;
+}
+
+.contributors button{
+    padding-left: 20px;
+}
     
-    .contributors__wrapper ul li{
-        padding-left: 18px;
-    }
-    
-      
+.contributors__wrapper ul li{
+    padding-left: 18px;
 }
