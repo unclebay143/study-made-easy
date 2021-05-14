@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 22px;
   font-weight: 500;
 }
@@ -15,16 +15,26 @@ header {
   height: 5vh;
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
-.navbar-brand {
-  margin-left: 30px;
+button.navbar-toggler:focus{
+  outline: 0;
+  box-shadow: none;
 }
 
-.navbar-nav {
-  margin-right: 50px !important;
+nav.navbar{
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
+a.navbar-brand{
+  font-size: 20px;
+}
+
+a.nav-link{
+  font-size: 16px;
+}
 
 .contribute__btn {
   padding: 16px 32px;
@@ -45,18 +55,7 @@ header {
   background-color: #fff;
 }
 
-@media (max-width: 600px) {
-  .navbar {
-    z-index: 999;
-  }
-  .navbar-brand {
-    margin-left: 2px;
-    font-size: 19px;
-  }
-  .container {
-    padding-top: 2rem;
-  }
-}
+
 
 /* FOOTER */
 footer {
@@ -67,4 +66,25 @@ footer {
 
 footer p {
   font-size: 18px;
+}
+
+@media (max-width: 300px) {
+  a.navbar-brand{
+    font-size: 12px;
+  }
+}
+
+
+@media (min-width: 900px) {
+
+  a.navbar-brand{
+    font-size: 28px;
+  }
+  a.nav-link{
+    font-size: 22px;
+  }
+  nav.navbar{
+    padding-left: 30px;
+    padding-right: 50px;
+  }
 }
