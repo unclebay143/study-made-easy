@@ -14,12 +14,14 @@ button.addEventListener("click", function () {
   
   // HIDE THE HEADING WHEN THE QUESTION IS BEEN GENERATED 
   document.querySelector(".random-heading").style.display="none"
+
+
   const mainContainer = document.querySelector(".containers");
   let container = "";
   //count = count + 1;
   const index = Math.floor(Math.random() * randomQuestion.length);
 
-
+console.log(index);
   randomQuestion.filter((item) => {
     if (index === item.id) {
       container += `<div class="question-container">Question :     ${item.question}</div>
@@ -28,7 +30,7 @@ button.addEventListener("click", function () {
        ${item.answer}
      </div>`;
     }
-  });
+});
   // console.log(container);
   mainContainer.innerHTML = container;
   setTimeout(() => {
