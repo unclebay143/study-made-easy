@@ -1,12 +1,14 @@
 main.home {
   background-image: url("../images/WhatsApp\ Image\ 2021-05-13\ at\ 9.14.50\ PM.jpeg");
   background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
   margin-top: 50px;
 }
 
 .img-overlay {
   height: 90vh;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.78);
   display: flex;
   justify-content: center;
   width: 100%;
@@ -19,6 +21,7 @@ main.home {
   height: 75vh;
   align-items: center;
   padding-top: 6em;
+  
 }
 
 .container h4 {

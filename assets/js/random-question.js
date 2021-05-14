@@ -4,14 +4,13 @@ import { chapter1 } from "./chapters/chapter-1.js";
 const randomQuestion = [...chapter1];
 
 console.log(randomQuestion.length);
-//let count = 0;
 
 const button = document.querySelector(".click");
 console.log(button);
 button.addEventListener("click", function () {
   const mainContainer = document.querySelector(".containers");
   let container = "";
-  //count = count + 1;
+
   const index = Math.floor(Math.random() * randomQuestion.length);
   randomQuestion.filter((item) => {
     if (index === item.id) {
@@ -26,10 +25,11 @@ button.addEventListener("click", function () {
   mainContainer.innerHTML = container;
   setTimeout(() => {
     const showBtn = document.querySelector(".show-answers");
+    showBtn.classList.add("show-button");
 
     showBtn.addEventListener("click", function () {
       const showAnswers = document.querySelector(".answer-container");
       showAnswers.classList.add("display-answer");
     });
-  }, 4000);
+  }, 150000);
 });
